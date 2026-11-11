@@ -1,1 +1,120 @@
 
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ragnar Site Education</title>
+  <meta name="description" content="Ragnar Site - पढ़ाई, विज्ञान, तकनीक और नई जानकारी सीखने का प्लेटफॉर्म।">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #10111f;
+      color: white;
+    }
+    header {
+      padding: 20px;
+      background: #19172d;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header h2 { color: #b99aff; margin: 0; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px;
+    }
+    .hero {
+      text-align: center;
+      padding: 75px 20px;
+      background: linear-gradient(135deg, #28204e, #111827);
+    }
+    .hero h1 { font-size: 38px; }
+    .hero span { color: #b99aff; }
+    .hero p { color: #d0cce0; line-height: 1.7; }
+    .btn {
+      display: inline-block;
+      background: #8b5cf6;
+      color: white;
+      padding: 13px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+    section { padding: 35px 20px; text-align: center; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      max-width: 1000px;
+      margin: 25px auto;
+    }
+    .card {
+      background: #1c1d32;
+      padding: 25px;
+      border-radius: 14px;
+      border: 1px solid #393451;
+    }
+    .card h3 { color: #b99aff; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #19172d;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>⚡ Ragnar Site</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>Welcome to <span>Ragnar Site</span></h1>
+  <p>ज्ञान, विज्ञान, तकनीक और शिक्षा की नई दुनिया में आपका स्वागत है।</p>
+  <a class="btn" href="#courses">Explore Now</a>
+</div>
+
+<section id="courses">
+  <h2>Our Learning Categories</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>📚 Education</h3>
+      <p>स्कूल और कॉलेज की पढ़ाई से जुड़ी जानकारी।</p>
+    </div>
+    <div class="card">
+      <h3>💻 Computer</h3>
+      <p>कंप्यूटर, कोडिंग और प्रोग्रामिंग सीखें।</p>
+    </div>
+    <div class="card">
+      <h3>🚀 Science & Space</h3>
+      <p>अंतरिक्ष, ISRO और विज्ञान की दुनिया जानें।</p>
+    </div>
+    <div class="card">
+      <h3>🌐 Technology</h3>
+      <p>नई तकनीक और डिजिटल दुनिया की जानकारी।</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Ragnar Site</h2>
+  <p>Ragnar Site एक Education Platform है, जहाँ हम नई चीजें सीखते और ज्ञान साझा करते हैं।</p>
+</section>
+
+<footer>
+  <p>© 2026 Ragnar Site | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
